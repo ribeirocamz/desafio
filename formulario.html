@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    
+    <h1>Cadastro</h1>
+    
+    <form action="">
+        <p>
+            <label for="nome">Nome Completo</label>
+            <br>
+            <input type="text" name="Nome" id="nome" required>
+        </p>
+        <p>
+            <br>
+            <label for="sexo">Sexo</label>
+            <br>
+            <input type="radio" name="opcao">
+            <label for="feminino">Feminino</label>
+            <br>
+            <input type="radio" name="opcao">
+            <label for="masculino">Masculino</label>
+            <br>
+            <input type="radio" name="opcao">
+            <label for="outro">Prefiro não responder</label>
+        </p>
+        <p>
+            <br>
+           <label for="data">Data de Nascimento</label>
+           <br>
+            <input type="date" name="data" required>
+        </p>
+        <p>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" required>
+        </p>
+        <p>
+            <br>
+            <label for="senha">Senha</label>
+            <br>
+            <input type="password" name="senha" required>
+        </p>
+        <p>
+            <br>
+            <label for="repetir senha">Repetir Senha</label>
+            <br>
+            <input type="password" name="Repetir senha" required>
+        </p>
+        <p>
+            <br>
+            <label for="departamento">Departamento</label>
+            <br>
+            <select name="departamento" id="departamento" required>
+                <option value="">Administrativo</option>
+                <option value="">Financeiro</option>
+                <option value="">Suporte Técnico</option>
+                <option value="">Recursos Humanos</option>
+            </select>
+        </p>
+        <p>
+            <br>
+            <label for="justificativa">Justificativa da Aplicação</label>
+            <br>
+            <textarea name="justificativa" id="justificativa" placeholder="Informe o motivo que está se cadastrando" cols="20" rows="2"></textarea>
+        </p>
+
+        <br>
+
+        <p>
+            <input type="checkbox" name="termos de uso" id="termos de uso" required>
+            <label for="termos de uso">Confirmo que li e aceito os termos de uso.</label>
+        </p>
+        <p>
+            <input type="submit" name="enviar" id="enviar">
+        </p>
+    </form>
+
+</body>
+</html>
